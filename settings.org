@@ -1,12 +1,54 @@
 
 * varibales for modes
 
+** display & input
+
+*** description
+
+Basic display & inputs. Below varibles set:
+- disable menu bar, tool bar, scrool bar, init splash screen
+- display linumber mode, column mode, time & battery life
+- disable backup files
+
+*** codes
+
+  #+BEGIN_SRC emacs-lisp
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (scroll-bar-mode -1)
+  (toggle-frame-maximized)
+  (setq inhibit-splash-screen t)
+  (setq make-backup-files nil)
+  (global-linum-mode 1)
+  (defalias 'yes-or-no-p 'y-or-n-p)
+  (display-time-mode 1)
+  (display-battery-mode 1)
+  (setq column-number-mode t)
+  #+END_SRC
+
+** ido
+
+*** description
+Interactive-DO.
+Interactive DO mode is an inbuilt mode for 'find-files' interactively.
+
+Below varibles sets:
+- enable ido mode
+- set ido for all buffers
+- flexible match, for matching names at any location
+- create new buffer always
+- sorting the file names according the list
+
+*** codes
+
 #+BEGIN_SRC emacs-lisp
-(menu-bar-mode -1)
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
-(toggle-frame-maximized)
-(setq inhibit-splash-screen t)
-(setq make-backup-files nil)
-(global-linum-mode 1)
+(ido-mode 1)
+(setq ido-everywhere t)
+(setq ido-enable-flex-matching t)
+(setq ido-use-filename-at-point 'guess)
+(setq ido-create-new-buffer 'always)
+(setq ido-file-extension-order '(".org" ".txt" ".csv"))
+
 #+END_SRC
+
+
