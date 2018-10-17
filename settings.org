@@ -39,6 +39,8 @@ Below varibles sets:
 - create new buffer always
 - sorting the file names according the list
 
+Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mickey Peterson's IDO blog]]
+
 *** codes
 
 #+BEGIN_SRC emacs-lisp
