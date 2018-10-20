@@ -1,4 +1,13 @@
 
+* packages
+
+** melpa
+
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/" ) t)
+(package-initialize)
+#+END_SRC
+
 * varibales for modes
 
 ** display & input
@@ -24,6 +33,7 @@ Basic display & inputs. Below varibles set:
   (display-time-mode 1)
   (display-battery-mode 1)
   (setq column-number-mode t)
+  (global-hl-line-mode 1)
   #+END_SRC
 
 ** ido
@@ -54,3 +64,13 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 #+END_SRC
 
 
+
+
+* installed packages
+
+** ido describe binding
+
+** ido grid mode
+#+BEGIN_SRC emacs-lisp
+(ido-grid-mode 1)
+#+END_SRC
