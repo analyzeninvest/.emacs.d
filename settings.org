@@ -1,4 +1,5 @@
 
+
 * packages
 
 ** melpa
@@ -74,3 +75,26 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 #+BEGIN_SRC emacs-lisp
 (ido-grid-mode 1)
 #+END_SRC
+
+** cycle themes
+#+BEGIN_SRC emacs-lis
+(setq cycle-themes-theme-list
+'(exotica dracula))
+(require 'cycle-themes)
+(cycle-themes-mode)
+#+END_SRC
+
+** org bullets
+#+BEGIN_SRC emacs-lisp
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda() (org-bullets-mode 1)))
+#+END_SRC
+* themes
+
+#+BEGIN_SRC emacs-lisp
+(load-theme 'exotica t)
+#+END_SRC
+
+** exotica
+
+** dracula
