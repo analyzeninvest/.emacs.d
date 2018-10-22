@@ -63,6 +63,7 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 
 #+END_SRC
 
+
 * installed packages
 
 ** ido describe binding
@@ -72,19 +73,13 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 (ido-grid-mode 1)
 #+END_SRC
 
-** cycle themes
-#+BEGIN_SRC emacs-lis
-(setq cycle-themes-theme-list
-'(exotica-theme dracula-theme))
-(require 'cycle-themes)
-(cycle-themes-mode)
-#+END_SRC
-
 ** org bullets
 #+BEGIN_SRC emacs-lisp
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda() (org-bullets-mode 1)))
 #+END_SRC
+
+
 * themes
 #+BEGIN_SRC emacs-lisp
 (load-theme 'exotica t)
@@ -93,7 +88,6 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 ** dracula
 
 ** exotica
-
 * good features to remember
 
 ** movement keys
