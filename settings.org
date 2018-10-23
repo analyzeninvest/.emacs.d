@@ -25,7 +25,8 @@ Basic display & inputs. Below varibles set:
   (menu-bar-mode -1)
   (tool-bar-mode -1)
   (scroll-bar-mode -1)
-  (toggle-frame-maximized)
+  ;(toggle-frame-maximized)
+  (add-to-list 'default-frame-alist '(fullscreen . maximized))
   (setq inhibit-splash-screen t)
   (setq make-backup-files nil)
   (global-linum-mode 1)
@@ -34,6 +35,11 @@ Basic display & inputs. Below varibles set:
   (display-battery-mode 1)
   (setq column-number-mode t)
   (global-hl-line-mode 1)
+  (electric-pair-mode 1)
+  (show-paren-mode 1)
+  (savehist-mode 1)
+  (global-auto-revert-mode 1)
+  (global-visual-line-mode 1)
   #+END_SRC
 
 ** ido
@@ -64,6 +70,17 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 #+END_SRC
 
 
+** winner mode
+
+*** description
+    winner mode for storing the window configurations
+    Thanks to: [[https://www.emacswiki.org/emacs/WinnerMode][Emacs Wiki for winner mode]]
+
+*** code
+#+BEGIN_SRC emacs-lisp
+(winner-mode 1)
+#+END_SRC
+
 * installed packages
 
 ** ido describe binding
@@ -80,19 +97,29 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 #+END_SRC
 
 
+* keybindings
+
+** codes
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-?") 'hippie-expand)
+(global-set-key (kbd "M-D") 'backward-kill-word)
+(global-set-key (kbd "DEL") 'backward-delete-char)
+(global-set-key (kbd "C-z") 'replace-string)
+(global-set-key (kbd "C-M-z") 'replace-regex)
+(global-set-key (kbd "C-Z") 'count-matches)
+#+END_SRC
+
 * themes
 #+BEGIN_SRC emacs-lisp
 (load-theme 'exotica t)
 #+END_SRC
 
-** dracula
-
 ** exotica
-* good features to remember
+* Back to Basic
 
-** movement keys
+** key combo
 
-   These are some basic movement keys in emacs.
+   These are some basic key combo in emacs.
 
  |-----------+---------------------------------|
  | key combo | effect                          |
