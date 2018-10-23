@@ -14,10 +14,14 @@
 
 *** description
 
-Basic display & inputs. Below varibles set:
+    Basic display & inputs. Below varibles set:
 - disable menu bar, tool bar, scrool bar, init splash screen
-- display linumber mode, column mode, time & battery life
+- display linumber mode, column mode, time, battery life, file size, hilight line, visual line
 - disable backup files
+- save cursor position
+- auto revert file
+- start with maximized frame
+- auto complete parenthesis & hilight parenthesis ends
 
 *** codes
 
@@ -25,7 +29,7 @@ Basic display & inputs. Below varibles set:
   (menu-bar-mode -1)
   (tool-bar-mode -1)
   (scroll-bar-mode -1)
-  ;(toggle-frame-maximized)
+  ;(toggle-frame-maximized) ;;; not using this one any more as each time init.el is eavluated, frame is toggled
   (add-to-list 'default-frame-alist '(fullscreen . maximized))
   (setq inhibit-splash-screen t)
   (setq make-backup-files nil)
@@ -40,15 +44,16 @@ Basic display & inputs. Below varibles set:
   (savehist-mode 1)
   (global-auto-revert-mode 1)
   (global-visual-line-mode 1)
+  (size-indication-mode 1)
   #+END_SRC
 
 ** ido
 
 *** description
-Interactive-DO.
-Interactive DO mode is an inbuilt mode for 'find-files' interactively.
+    Interactive-DO.
+    Interactive DO mode is an inbuilt mode for 'find-files' interactively.
 
-Below varibles sets:
+    Below varibles sets:
 - enable ido mode
 - set ido for all buffers
 - flexible match, for matching names at any location
@@ -115,6 +120,9 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 #+END_SRC
 
 ** exotica
+
+Vibrant colored dark theme.
+
 * Back to Basic
 
 ** key combo
