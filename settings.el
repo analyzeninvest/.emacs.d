@@ -1,0 +1,45 @@
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/" ) t)
+(package-initialize)
+
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+;(toggle-frame-maximized) ;;; not using this one any more as each time init.el is eavluated, frame is toggled
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(setq inhibit-splash-screen t)
+(setq make-backup-files nil)
+(global-linum-mode 1)
+(defalias 'yes-or-no-p 'y-or-n-p)
+(display-time-mode 1)
+(display-battery-mode 1)
+(setq column-number-mode t)
+(global-hl-line-mode 1)
+(electric-pair-mode 1)
+(show-paren-mode 1)
+(savehist-mode 1)
+(global-auto-revert-mode 1)
+(global-visual-line-mode 1)
+(size-indication-mode 1)
+
+(ido-mode 1)
+(setq ido-everywhere t)
+(setq ido-enable-flex-matching t)
+(setq ido-use-filename-at-point 'guess)
+(setq ido-create-new-buffer 'always)
+(setq ido-file-extension-order '(".org" ".txt" ".csv"))
+
+(winner-mode 1)
+
+(ido-grid-mode 1)
+
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda() (org-bullets-mode 1)))
+
+(global-set-key (kbd "C-?") 'hippie-expand)
+(global-set-key (kbd "M-D") 'backward-kill-word)
+(global-set-key (kbd "DEL") 'backward-delete-char)
+(global-set-key (kbd "C-z") 'replace-string)
+(global-set-key (kbd "C-M-z") 'replace-regex)
+(global-set-key (kbd "C-Z") 'count-matches)
+
+(load-theme 'exotica t)

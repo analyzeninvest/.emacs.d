@@ -1,0 +1,64 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/aritra/.emacs.d/elpa/" . "cycle-themes-20150403.309/")
+ ("/home/aritra/.emacs.d/" . "elpa/")
+ ("/home/aritra/github/" . "sites-for-good-read/")
+ ("/home/aritra/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/aritra/.emacs.d/"
+ "/home/aritra/.emacs.d/elpa/cycle-themes-20150403.309/"
+ "/home/aritra/github/sites-for-good-read/"
+ "/home/aritra/github/BulkFinFET-scaling-math/"
+ "/home/aritra/github/snake-game/"
+ "/home/aritra/"
+ "/home/aritra/github/org-mode-gantt-chart/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "settings.org"
+ "init.el"
+ "history"
+ "cycle-themes.el"
+ "cycle-themes-autoloads.el"
+ "weblinks.org"
+ "BulkFinFET-scaling-math.tex"
+ "github-snake.py"
+ ".gitconfig"
+ "cmn_schedule.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/aritra/.emacs.d/" (23503 39138 554127 864000) "settings.el" ".git/" "ido.last" "../" "./" "auto-save-list/" "init.el" "elpa/" "settings.org" "places" "history")
+
+ ("/home/aritra/" (23503 37619 156128 244000) ".bash_aliases~" ".profile" ".electron/" "snap/" ".ICEauthority" ".gnupg/" ".bashrc" ".audacity-data/" "emacs-config-4.mkv" ".emacs.d/" "opt/" "Documents/" ".pki/" "Desktop/" "../" ".thumbnails/" "./" ".bash_history" ".electroneum/" ".PlayOnLinux/" ".bash_logout" ".ssr/" "trading/" "*message*-20180619-222411" ".npm/" "bin/" "out.ogv" ".mozilla/" ".nvm/" "Public/" ".fltk/" ".furiusisomount/" ".cache/" ".bash_aliases" ".gconf/" "PlayOnLinux's virtual drives/" ".thunderbird/" ".ssh/" ".gem/" "bittrex-API-key" ".python_history" ".local/" "emacs-config-1.mkv" ".wine/" ".gnuplot_history" "core" ".lesshst" ".dbus/" "my.avi" "Pictures/" "Videos/" ".gitconfig" ".wget-hsts" "Downloads/" "examples.desktop" "Music/" "emacs-config-3.mkv" "mine/" ".v8flags.5.1.281.108.cdd807f1a0c3f279e205dce97c37bed6.json" "emacs-config-5.mkv" ".texlive2017/" "Dilbert-unproductive.mp4" ".config/" ".v8flags.5.1.281.108.63a9f0ea7bb98050796b649e85481845.json" "github/" "emacs-config-2.mkv" ".node-gyp/" ".octave_hist" "Templates/" ".nano/" ".gimp-2.8/" ".sudo_as_admin_successful" "Pandit Hariprasad Chaurasia - Raga Bhopali - Bansuri And Tabla - by roothmens-5wjJ3hpVO0k.mp3" ".openshot/" "bittrex-API-key-help.pdf" ".selected_editor")
+
+ ("/home/aritra/.emacs.d/elpa/" (23502 57090 987683 710000) "smiles-mode-readme.txt" "smart-mode-line-readme.txt" "org-bullets-20180208.2343/" "svg-clock-readme.txt" "gnupg/" "ido-describe-bindings-20161023.1102/" "../" "./" "org-bullets-readme.txt" "ido-grid-mode-20160122.1139/" "smart-mark-readme.txt" "archives/" "dash-20180910.1856/" "exotica-theme-readme.txt" "ido-grid-mode-readme.txt" "exotica-theme-20180212.2329/" "ido-describe-bindings-readme.txt")
+
+ ("/home/aritra/.emacs.d/elpa/cycle-themes-20150403.309/" (23502 17119 364607 456000) "cycle-themes.el" "../" "./" "cycle-themes-pkg.el" "cycle-themes.elc" "cycle-themes-autoloads.el")
+
+ ("/home/aritra/github/sites-for-good-read/" (23500 55633 194397 190000) ".git/" "../" "./" "weblinks.org")
+
+ ("/home/aritra/.emacs.d/auto-save-list/" (23499 43718 218720 950000) "../" "./")
+
+ ("/home/aritra/.emacs.d/elpa/exotica-theme-20180212.2329/" (23499 43487 523049 258000) "exotica-theme-autoloads.el" "../" "./" "exotica-theme.el" "exotica-theme-pkg.el" "exotica-theme.elc")
+
+ ("/home/aritra/github/BulkFinFET-scaling-math/" (23033 59264 95230 306000) "MOSFET_FinFET_surface_potential_graph.eps" "MOSFET_surface_potential_graph.eps" ".git/" "BulkFinFET-bulk-MOSFET.eps" "../" "./" "BulkFinFET-scaling-math.tex" "BulkFinFET-EField-in-Channel.eps" "MOS_FinFET_surface_graph.eps" "FinFET-E-Field.eps" "GAA-device.eps" "BulkFinFET-PDSOI-FDSOI.eps" "BulkFinFET-FinFET.eps" "bulk-finfet-octave.oct" "FinFET_surface_potential_graph.eps" "BulkFinFET-PD-FD-SOI.eps")
+
+ ("/home/aritra/github/org-mode-gantt-chart/" (23364 56397 36553 389000) "css/" "new.tjp" "../" "./" "example.org" "Plan.html" "new.org" "cmn_schedule.tjp" "icons/" "index.html" "working-leaves.tjp" "cmn_schedule.org" "example-schedule.org" "reports/" "scripts/")
+
+ ("/home/aritra/github/schedule-mode/" (23033 59288 223372 438000) "readme.org" ".git/" "sample-schedule" "../" "./" "new3" "gif/" "schedule.el" "_config.yml")
+
+ ("/home/aritra/github/snake-game/" (23388 32250 935818 141000) ".git/" "../" "./" "snake-head-left.png" "snake.mp3" "small-gecco.jpg" "snake.py" "github-snake.py" "snake_head.jpg")
+
+ ("/home/aritra/github/" (23388 29781 282206 801000) "routine-maker/" "sites-for-good-read/" "crypto-trading/" "../" "./" "org-mode-gantt-chart/" "my-crypto-currency/" "BulkFinFET-scaling-math/" "cloned-projects/" "schedule-mode/" "snake-game/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
