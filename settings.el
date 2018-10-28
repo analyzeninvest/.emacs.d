@@ -20,6 +20,7 @@
 (global-auto-revert-mode 1)
 (global-visual-line-mode 1)
 (size-indication-mode 1)
+(set-language-environment "UTF-8")
 
 (ido-mode 1)
 (setq ido-everywhere t)
@@ -55,6 +56,8 @@
 (global-set-key (kbd "C-x l") 'counsel-locate)
 (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
 (define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)
+
+(require 'magit)
 
 (global-set-key (kbd "C-?") 'hippie-expand)
 (global-set-key (kbd "M-D") 'backward-kill-word)
