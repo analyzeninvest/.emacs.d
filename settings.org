@@ -142,13 +142,11 @@ Thanks to: [[https://www.masteringemacs.org/article/introduction-to-ido-mode][Mi
 #+END_SRC
 
 ** magit
-magit user manual
-https://magit.vc/manual/magit.html
 
 #+BEGIN_SRC emacs-lisp
-;(require 'magit)
-;(global-set-key (kbd "C-c m") 'magit-status)
+(require 'magit)
 #+END_SRC
+
 * keybindings
 
 ** codes
