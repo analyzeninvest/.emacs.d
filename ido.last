@@ -37,7 +37,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/aritra/.emacs.d/" (23510 22958 647699 393000) "settings.el" "recentf" ".git/" "ido.last" "../" "./" "auto-save-list/" "init.el" "elpa/" "settings.org" "places" "history")
+ ("/home/aritra/.emacs.d/" (23510 25259 515460 107000) "settings.el" "recentf" ".git/" "ido.last" "../" "./" "auto-save-list/" "init.el" "elpa/" "settings.org" "places" "history")
 
  ("/home/aritra/github/routine-maker/" (23510 21672 123421 356000) "routine-maker.py" "readme.org" ".git/" "../" "./")
 
