@@ -59,6 +59,11 @@
 
 (require 'magit)
 
+(require 'iedit)
+
+(require 'paredit)
+(paredit-mode 1)
+
 (global-set-key (kbd "C-?") 'hippie-expand)
 (global-set-key (kbd "M-D") 'backward-kill-word)
 (global-set-key (kbd "DEL") 'backward-delete-char)
